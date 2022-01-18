@@ -9,7 +9,7 @@ class InsertionSort {
       int key=arr[i];
       int left=i-1;
       
-      
+      // checking and swapping elements
       while(left>=0 && key<arr[left]){
         
            arr[left+1]=arr[left];
